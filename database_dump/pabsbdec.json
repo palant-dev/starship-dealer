@@ -1,0 +1,54 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"pabsbdec"},
+{"type":"table","name":"cart","database":"pabsbdec","data":
+[
+
+]
+}
+,{"type":"table","name":"categories","database":"pabsbdec","data":
+[
+{"category_id":"1","category_title":"Personal Starships","created_at":"2025-06-03 09:23:02"},
+{"category_id":"2","category_title":"Commercial Vessels","created_at":"2025-06-03 09:23:02"},
+{"category_id":"3","category_title":"Space Parts","created_at":"2025-06-03 09:23:02"},
+{"category_id":"4","category_title":"Navigation Systems","created_at":"2025-06-03 09:23:02"},
+{"category_id":"5","category_title":"Life Support Equipment","created_at":"2025-06-03 09:23:02"}
+]
+}
+,{"type":"table","name":"orders","database":"pabsbdec","data":
+[
+{"order_id":"10","user_id":"5","order_amount":"3500000.00","order_status":"pending","order_date":"2025-06-05 21:40:43","shipping_address":null,"shipping_city":null,"shipping_state":null,"shipping_zip":null},
+{"order_id":"11","user_id":"5","order_amount":"85000.00","order_status":"pending","order_date":"2025-06-05 21:41:28","shipping_address":null,"shipping_city":null,"shipping_state":null,"shipping_zip":null},
+{"order_id":"12","user_id":"5","order_amount":"4500000.00","order_status":"pending","order_date":"2025-06-05 21:42:27","shipping_address":null,"shipping_city":null,"shipping_state":null,"shipping_zip":null},
+{"order_id":"13","user_id":"5","order_amount":"300000.00","order_status":"pending","order_date":"2025-06-05 21:48:47","shipping_address":null,"shipping_city":null,"shipping_state":null,"shipping_zip":null}
+]
+}
+,{"type":"table","name":"order_items","database":"pabsbdec","data":
+[
+{"item_id":"10","order_id":"10","product_id":"7","product_price":"3500000.00","quantity":"1"},
+{"item_id":"11","order_id":"11","product_id":"5","product_price":"85000.00","quantity":"1"},
+{"item_id":"12","order_id":"12","product_id":"2","product_price":"4500000.00","quantity":"1"},
+{"item_id":"13","order_id":"13","product_id":"8","product_price":"180000.00","quantity":"1"},
+{"item_id":"14","order_id":"13","product_id":"4","product_price":"120000.00","quantity":"1"}
+]
+}
+,{"type":"table","name":"products","database":"pabsbdec","data":
+[
+{"product_id":"1","product_title":"Nova Explorer","product_description":"Compact personal starship perfect for solo space exploration. Features advanced navigation and comfortable living quarters.","product_price":"2500000.00","product_image":"nova_explorer.jpg","product_quantity":"5","product_featured":"1","product_category_id":"1","created_at":"2025-06-03 09:23:02"},
+{"product_id":"2","product_title":"Quantum Hauler","product_description":"Medium-sized cargo vessel with enhanced storage capacity. Ideal for small businesses and independent traders.","product_price":"4500000.00","product_image":"quantum_hauler.jpg","product_quantity":"3","product_featured":"1","product_category_id":"2","created_at":"2025-06-03 09:23:02"},
+{"product_id":"3","product_title":"Fusion Drive Core","product_description":"High-efficiency propulsion system that reduces fuel consumption by 40%. Compatible with most modern starships.","product_price":"750000.00","product_image":"fusion_core.jpg","product_quantity":"15","product_featured":"0","product_category_id":"3","created_at":"2025-06-03 09:23:02"},
+{"product_id":"4","product_title":"Stellar Navigator Pro","product_description":"Advanced navigation system with real-time star mapping and automated course correction.","product_price":"120000.00","product_image":"stellar_nav.jpg","product_quantity":"20","product_featured":"1","product_category_id":"4","created_at":"2025-06-03 09:23:02"},
+{"product_id":"5","product_title":"Atmospheric Recycler","product_description":"State-of-the-art life support system that maintains optimal air quality for up to 6 passengers.","product_price":"85000.00","product_image":"atmo_recycler.jpg","product_quantity":"30","product_featured":"0","product_category_id":"5","created_at":"2025-06-03 09:23:02"},
+{"product_id":"6","product_title":"Solar Sail Kit","product_description":"Eco-friendly propulsion enhancement that harnesses solar energy for auxiliary power.","product_price":"45000.00","product_image":"solar_sail.jpg","product_quantity":"50","product_featured":"0","product_category_id":"3","created_at":"2025-06-03 09:23:02"},
+{"product_id":"7","product_title":"Galaxy Class Suite","product_description":"Luxury personal starship with premium amenities and extended range capabilities.","product_price":"3500000.00","product_image":"galaxy_suite.jpg","product_quantity":"2","product_featured":"1","product_category_id":"1","created_at":"2025-06-03 09:23:02"},
+{"product_id":"8","product_title":"Quantum Shield Generator","product_description":"Advanced defensive system that provides protection against space debris and radiation.","product_price":"180000.00","product_image":"quantum_shield.jpg","product_quantity":"25","product_featured":"0","product_category_id":"3","created_at":"2025-06-03 09:23:02"}
+]
+}
+,{"type":"table","name":"users","database":"pabsbdec","data":
+[
+{"user_id":"1","username":"admin","password":"admin","email":"admin@starshipdealer.com","first_name":"Admin","last_name":"User","address":null,"city":null,"state":null,"zip_code":null,"phone":null,"is_admin":"1","created_at":"2025-06-03 09:23:02"},
+{"user_id":"5","username":"tito","password":"admin123","email":"tito@gmail.com","first_name":null,"last_name":null,"address":null,"city":null,"state":null,"zip_code":null,"phone":null,"is_admin":"0","created_at":"2025-06-03 23:33:15"},
+{"user_id":"7","username":"lelli","password":"123admin","email":"lelli@gmaill.com","first_name":null,"last_name":null,"address":null,"city":null,"state":null,"zip_code":null,"phone":null,"is_admin":"0","created_at":"2025-06-05 21:49:20"}
+]
+}
+]
