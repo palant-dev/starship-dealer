@@ -50,7 +50,33 @@ Ho scelto di non utilizzare framework per:
 3. Configura il file di connessione al database
 4. Avvia un server PHP locale
 
-## 🔒 Sicurezza
+## � Development Server
+
+The project includes a built-in development server setup for easy local development:
+
+### Using the Development Server
+
+1. Copy `.env.example` to `.env` and adjust settings as needed:
+   ```ini
+   APP_PORT=8080  # Choose your preferred port
+   APP_ENV=development
+   APP_URL=http://localhost
+   ```
+
+2. Start the server using one of these methods:
+   - **Using PHP directly**: `php server.php`
+   - **Using PowerShell**: `$env:APP_PORT="8080"; php server.php`
+   - **Using Command Prompt**: `set APP_PORT=8080 && php server.php`
+
+The server will start and be accessible at `http://localhost:8080` (or your configured port).
+
+### Security Features
+
+- Only files in the `public` directory are directly accessible
+- Application code stays private
+- Configuration files remain secure
+
+## �🔒 Sicurezza
 
 Ho implementato misure di sicurezza base come:
 - Protezione contro SQL injection
