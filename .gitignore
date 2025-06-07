@@ -1,25 +1,31 @@
-# CakePHP 3
+# Environment Files
+.env
+.env.backup
+.env.production
 
-/vendor/*
-/config/app.php
+# PHP
+/vendor/
+composer.lock
+.phpunit.result.cache
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# IDE and Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application Specific
 /logs/*
-!/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+!/logs/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
